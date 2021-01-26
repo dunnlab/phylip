@@ -13,6 +13,32 @@
             "cStandard": "c17",
             "cppStandard": "c++17",
             "intelliSenseMode": "msvc-x64"
+        },
+        {
+            "name": "Ubuntu",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++11",
+            "intelliSenseMode": "gcc-x64",
+            "compilerArgs": [
+                "-g",
+                "-DUNX",
+                "-Wall",
+                "-Wmain",
+                "-Wmissing-prototypes",
+                "-Wreturn-type",
+                "-Wstrict-prototypes",
+                "-Wunused",
+                "-Werror",
+                "-Wredundant-decls",
+                "-Waggregate-return",
+                "-Wcast-align",
+                "-Wcomment"
+            ]
         }
     ],
     "version": 4
