@@ -26,3 +26,18 @@ To run a test datasets:
 
 Then enter the name of the dataset.
 
+## Profile with `gprof`
+
+further reading
+[The GNU Profiler](https://ftp.gnu.org/old-gnu/Manuals/gprof-2.9.1/html_chapter/gprof_toc.html)
+[How to read gprof output(pdf)](http://www.cs.cornell.edu/courses/cs414/2004fa/gprof.pdf)
+
+``` bash
+# in linux container dunnlab/ubuntu-dev
+cd phylip-3.697/src
+make --file=Makefile.unx dnaml
+cd ../../
+ln -s siph16s.phy infile
+phylip-3.697/src/dnaml
+gprof -b phylip-3.697/src/dnaml gmon.out
+```
