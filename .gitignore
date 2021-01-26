@@ -1,1 +1,6 @@
-
+infile
+outfile
+outtree
+*.o
+*.out
+dnaml
