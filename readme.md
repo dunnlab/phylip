@@ -28,9 +28,10 @@ Then enter the name of the dataset.
 
 ## Profile with `gprof`
 
-further reading
-[The GNU Profiler](https://ftp.gnu.org/old-gnu/Manuals/gprof-2.9.1/html_chapter/gprof_toc.html)
-[How to read gprof output(pdf)](http://www.cs.cornell.edu/courses/cs414/2004fa/gprof.pdf)
+Further reading
+
+- [The GNU Profiler](https://ftp.gnu.org/old-gnu/Manuals/gprof-2.9.1/html_chapter/gprof_toc.html)
+- [How to read gprof output(pdf)](http://www.cs.cornell.edu/courses/cs414/2004fa/gprof.pdf)
 
 ``` bash
 # in linux container dunnlab/ubuntu-dev
