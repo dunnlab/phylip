@@ -91,10 +91,10 @@ CC        = gcc
 #
 #
 #A minimal one
-CFLAGS =
+# CFLAGS = 
 #
 # A basic one for debugging
-#CFLAGS  = -g 
+CFLAGS  = -g -pg
 #
 # An optimized one for gcc
 #CFLAGS  = -O3 -DUNX -fomit-frame-pointer
