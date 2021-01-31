@@ -41,4 +41,5 @@ cd ../../
 ln -s siph16s.phy infile
 phylip-3.697/src/dnaml
 gprof -b phylip-3.697/src/dnaml gmon.out
+gprof phylip-3.697/src/dnaml gmon.out > gmon.txt
 ```
